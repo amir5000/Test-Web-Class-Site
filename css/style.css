@@ -1,0 +1,202 @@
+body {
+	margin: 0;
+	background-color: #eee;
+	font-family: 'Indie Flower', cursive;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+p {
+	font-size: 20px;
+}
+
+header {
+	background-color: #c3d5d8;
+	padding: 25px;
+}
+
+article,
+nav {
+	width: 100%;
+	max-width: 1175px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+nav a {
+	color: green;
+}
+
+.active,
+nav a:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+nav h1 {
+	float: left;
+	margin: 0;
+}
+
+nav h1 a {
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding: 15px 25px;
+	border-right: 1px solid #000;
+}
+
+nav ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	float: left;
+	margin: 5px 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 900;
+	padding: 10px;
+}
+
+article {
+	min-height: 75vh;
+}
+
+article h1 {
+	margin: 25px;
+	font-size: 30px;
+}
+
+section {
+	margin: 50px 25px 25px;
+	min-height: 300px;
+	border-bottom: 2px solid #ccc;
+}
+
+section h2 span {
+	color: #aaa;
+	font-size: 14px;
+}
+
+section img {
+	float: left;
+	height: 250px;
+	margin: 0px 20px 20px 0;
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.clear {
+	clear: left;
+}
+
+.item-links {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.item-links li {
+	margin: 10px 15px 10px 0;
+	font-size: 20px;
+}
+
+.item-links a {
+	padding: 10px;
+	text-decoration: none;
+	color: #0046b7;
+}
+
+.item-links a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.text-center {
+	text-align: center;
+}
+
+form {
+	margin: 25px auto;
+	width: 50%;
+}
+
+.field-section {
+	margin: 25px 0;
+}
+
+.field-section label {
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.field-section input,
+.field-section textarea {
+	height: 30px;
+	width: 100%;
+	font-size: 20px;
+	text-indent: 10px;
+}
+
+.field-section textarea {
+	height: 150px;
+}
+
+.field-section button {
+	font-size: 20px;
+	border: 3px solid #aaa;
+	padding: 10px 25px;
+	background-color: #c3d5d8;
+	border-radius: 35px;
+	cursor: pointer;
+}
+
+.field-section button:hover {
+	border-color: #c3d5d8;
+	background-color: #aaa;
+}
+
+.row {
+	width: 100%;
+	margin: 50px 0;
+}
+
+.row:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.col {
+	float: left;
+	margin: 0 2.5%;
+}
+
+.col-2 {
+	width: 45%;
+}
+
+.col-3 {
+	width: 28.33333%;
+}
+
+.col-4 {
+	width: 20%;
+}
+
+.col img {
+	display: block;
+	width: 100%;
+}
